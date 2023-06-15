@@ -19,14 +19,7 @@ body.setAttribute("class", "card-wrapper")
 root.appendChild(body)
 
 
-
-
-
-
-
-
 const url = "https://bobsburgers-api.herokuapp.com/characters/?limit=16&skip=60"
-
 
 
 async function getData() // Fetching data from url = https://bobsburgers-api.herokuapp.com/characters/?limit=15&skip=70
